@@ -1,0 +1,10 @@
+const express = require('express');
+const sneakerRoutes = express.Router();
+const sneakerController=require('../controller/item.controller');
+sneakerRoutes.route('/').get(sneakerController.show);
+sneakerRoutes.route('/view/:id').get(sneakerController.view);
+sneakerRoutes.route('/add').post(sneakerController.add);
+sneakerRoutes.route('/delete/:id').get(sneakerController.delete);
+sneakerRoutes.route('/update/:id').put(sneakerController.update);
+sneakerRoutes.route('/updatequantity/:id').put(sneakerController.quantity);
+module.exports=sneakerRoutes;

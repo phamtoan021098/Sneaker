@@ -1,0 +1,299 @@
+.banner{
+  height: 500px;
+  background-image: url(./image/7da6bf8a0b717126641037c1853a1630.png);
+  background-size: cover;
+}
+#banner1{
+  background-image: url(./image/banner1.jpg);
+  height: 500px;
+  background-size: cover;
+  padding: 0;
+}
+#banner2{
+  background-image: url(./image/peeping_pattas01.jpg);
+  height: 250px;
+  background-size: cover;
+  padding: 0;
+}
+#banner4{
+  background-image: url(./image/banner3.jpg);
+  height: 250px;
+  background-size: cover;
+  padding: 0;
+}
+#banner3{
+  background-image: url(./image/banner5.jpg);
+  height: 250px;
+  background-size: cover;
+  padding: 0;
+}
+.row-vans{
+  background-image: url(./image/vans.jpg);
+  background-size:cover;
+  height: 200px;
+  margin-bottom: 5%;
+}
+.row-converse{
+  background-image: url(./image/converse.jpg);
+  background-size:cover;
+  height: 200px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.row-palladium{
+  background-image: url(./image/palldium.jpg);
+  background-size:cover;
+  height: 200px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.container-fluid
+{
+  height: 250px;
+}
+.row .col-sm-4{
+  text-align: center;
+}
+.path a{
+color: black;
+text-decoration: none;
+}
+select{
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+height: 35px;
+border-color: aliceblue;
+}
+.nav
+{
+  margin-left: 15%;
+}
+.nav img{
+  width: 80px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin: 8px 2px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav img:hover{
+border-color:#6ab04c;
+}
+.item{
+margin-top: 10%;
+margin-bottom: 10%;
+}
+.checked{
+color: #F62; 
+}
+.thead-inverse{
+  background-color:rgba(242,242,242,1);
+  color: black;
+}
+.table td{
+  background-color: white;
+}
+.total{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.total p{
+  color: grey;
+  opacity: 0.7;
+}
+.login-form ,.register-form{
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.login ,.register{
+  margin: 5%;
+}
+
+.register-form p{
+  text-align: left;
+  color: gray;
+}
+.register-form label{
+ margin-right: 15%; 
+}
+.form-check{
+  padding-bottom: 2%;
+}
+#dd{
+  margin-left: 200px;
+}
+.pagination{
+  margin-left: 250px;
+}
+#dropdown-toggle{
+ border-radius: 0;
+ background-color: white;
+ border:white;
+ color: #000000;
+ width: 150px;
+ font-size: 15px;
+ opacity: 1 !important;
+ letter-spacing: 2px;
+}
+
+.card{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.body p{
+  text-align: left;
+  margin-left: 5%;
+}
+.code{
+  font-size: 12px;
+}
+.name{
+  color: #767677;
+}
+.card{
+  border-radius: 0;
+}
+.card:hover{
+  border-color: black;
+}
+.click{
+  text-decoration: none;
+  color: #000000;
+  background: white;
+  box-shadow: 17px 16px 0px 0px rgba(173,161,173,1);
+}
+
+#button {
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+#button:hover {
+opacity: 0.5;
+}
+#col-sm-4{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#footer-first{
+  background-color: rgba(242,242,242,1);
+  display: flex;
+}
+#footer-first h4{
+  color: #000;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-transform: uppercase;
+}
+#col-sm-4-btn
+{
+  margin-top: 5%;
+}
+h4{
+  text-transform: uppercase;
+  color: #444;
+  text-align: left;
+}
+.col-sm-3 p{
+  text-align: left  ;
+}
+.col-sm-3 i{
+  margin-right: 5%;
+}
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+#decrease {
+  margin-right: 5px;
+  border-radius: 8px 0 0 8px;
+  height: 40px;
+}
+#increase {
+  margin-left: 5px;
+  border-radius: 0 8px 8px 0;
+  height: 40px;
+}
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+button .button-1{
+  width: 80px;
+}
+
+.icon-bestseller{
+  margin-top: 2%;
+  left:-20px;
+  width: 40px;
+  background-image: url(./image/hot-icon.png);
+  height: 40px;
+  background-size: cover;
+}
+.empty{
+  margin-top: 2%;
+  top:20px;
+  left: 2px;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+.col-sm-6{
+  text-align: center;
+}
+h3{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#a{
+margin-top: 5%;
+}
+#login,#register{
+  text-align: left;
+}
+.modal{
+  margin-left: 400px;
+  width: 700px;
+}
+.label-product{
+  width: 50px;
+    height: 50px;
+    border-radius: 25px !important;
+    line-height: 50px;
+    text-align: center;
+    text-transform: none !important;
+    background-color: #fe5454;
+    margin:2%;
+}

@@ -1,0 +1,10 @@
+const express = require('express');
+const cartRoutes = express.Router();
+const cartController=require('../controller/cart.controller');
+cartRoutes.route('/').get(cartController.show);
+cartRoutes.route('/add').post(cartController.add);
+cartRoutes.route('/view/:id').get(cartController.view);
+cartRoutes.route('/cart/:user').get(cartController.cartbyuser);
+cartRoutes.route('/delete/:id').get(cartController.delete);
+cartRoutes.route('/update/:id').put(cartController.update);
+module.exports=cartRoutes;
